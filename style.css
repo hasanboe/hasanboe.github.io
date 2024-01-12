@@ -1,314 +1,163 @@
 .menu {
     max-width: 1000px;
-    height: 100%;
+    height: 3000px;
     border: 2px solid red;
     margin: auto;
-}
+    grid-template-columns: auto auto auto;
 
-.boshi {
-    max-width: 1000px;
-    height: 100%;
-
-
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-}
-
-nav {
-    margin: auto;
 
 }
 
-nav button {
-    width: 100px;
-    height: 40px;
-    color: white;
-    background-color: #DC780B;
-    border-radius: 5px
+header {
+    display: flex;
+
+}
+
+.lol {
+    display: flex;
+    align-items: center;
+}
+
+.lop {
+    margin-left: 500px;
+    margin-top: 10px;
+
 }
 
 .ortasi {
+    max-width: 1000px;
+    height: 400px;
+
+    display: flex;
+    margin-top: -40px;
+}
+
+.kok {
+    max-width: 300px;
+    height: 300px;
+    margin: auto;
+
+}
+
+.kok img {
     max-width: 100%;
-    height: 100%;
-    margin-left: 20px;
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: auto auto;
 
 }
 
-.lol1 {
-    max-width: 80%;
-    height: 100%;
-
+.ok {
+    margin: auto;
 
 }
 
-.lol1 button {
-
-    background-color: #DC780B;
-    width: 20%;
+.ok button {
+    width: 150px;
     height: 40px;
+    background: #8643DC;
+    border-radius: 120px
+}
+
+.lol ol {
+    font-size: 2 0px;
+
+}
+
+.box8 {
+    max-width: 200px;
+    height: 100px;
+
+    margin-left: 100px;
+}
+
+.oxirrogi {
+    max-width: 100%;
+
+    height: 300px;
+}
+
+.box9 {
+    max-width: 100%;
+    height: 100%;
     margin: auto;
-    border-radius: 5px
+    display: flex;
 }
 
-
-
-.ortasi img {
-    max-width: 100%;
+.man1 {
+    max-width: 300px;
     height: 100%;
-    font-size: large;
-
-}
-
-.features {
-    max-width: 100%;
-    height: 100%;
-    margin-left: 20px;
-
-}
-
-.lol3 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-.box {
-    max-width: 80%;
-    height: 100%;
-
 
     margin: auto;
-    margin-top: 20px;
 }
 
-.aboutus {
-    margin-left: 20px;
-    max-width: 100%;
-    height: 100%;
+.man1 h3 {
+    display: flex;
 
-    display: grid;
-    grid-template-columns: auto auto;
 }
 
-.aboutus img {
-    max-width: 100%;
-    border-radius: 40px;
-}
-
-.lol4 button {
-    width: 100px;
+.man1 h3 img {
+    width: 30px;
     height: 30px;
-    background-color: #DC780B;
-    color: white;
-    border-radius: 5px
 }
 
-
-.lol4 {
-    max-width: 80%;
-    height: 100%;
-    margin-left: 50px;
-
-}
-
-.menusi {
+.boshi1 {
     max-width: 100%;
-    height: 100%;
+    height: 500px;
+    border: 2px solid red;
 
-    margin-top: 50px;
 }
 
-.menusi h1 {
-    margin: auto;
+.boshi1 h2{
+max-width: 150px;
+height: 50px;
+
+margin-left: 20px;
 }
 
-.boxs2 {
-    max-width: 100%;
-    height: 100%;
-
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: auto;
-    margin-top: 40px;
+.boshi1 ol a {
+ margin-left: 700px;
+align-items: center;
+ 
 }
+.boshi1 .il{
+    display: flex;
 
-.box1 {
-    max-width: 90%;
-    height: 100%;
-
+}
+.boshi1 .rasm img{
+    max-width: 400px;
+    height: 400px;
     margin: auto;
 
 }
-
-.box1 img {
-    max-width: 100%;
-    margin-top: 20px;
-    border-radius: 20px;
-}
-
-.learnmore {
-    max-width: 100%;
-    height: 100%;
-
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.box7 {
-    max-width: 100%;
-    max-height: 100%;
-
-    margin: auto;
-    margin-top: 20px;
-}
-
-.box6 {
-    max-width: 70%;
-    height: 100%;
+.boshi1 .rasm{
+margin-left: 70px;
 
 }
-
-.oxiri2 {
-    max-width: 100%;
-    height: 100%;
-    margin-top: 50px;
-    background-color: black;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+.oxiri{
+max-width: 100%;
+height: auto;
+border: 2px solid red;
+margin: auto;
 }
-
-.box0 h3 {
-    color: white;
+.men1{
+margin-left: 50px;
 
 }
-
-.box0 p {
-    color: white;
-    margin-top: 20px;
+.men2{
+display: flex;
+margin: auto;
 }
+.boq{
+margin: auto;
 
-.box0 {
-    max-width: 50%;
-    height: 100%;
-    margin: auto;
+}
+.kot{
+width: 80%;
+height: auto;
+display: flex;
+margin: auto;
 }
 
 
 
-
-
-
-@media screen and (max-width:700px) {
-    .boshi {
-        grid-template-columns: auto auto auto;
-
-    }
-
-    .ortasi {
-        grid-template-columns: auto;
-
-    }
-
-    .lol3 {
-        grid-template-columns: auto auto;
-
-    }
-
-    .aboutus {
-        grid-template-columns: auto;
-
-    }
-
-    .aboutus img {
-        max-width: 60%;
-        margin: auto;
-    }
-
-    .lol4 {
-        margin-top: 20px;
-
-    }
-
-    .boxs2 {
-        grid-template-columns: auto auto;
-
-    }
-
-    .learnmore {
-        grid-template-columns: auto;
-
-    }
-
-    .oxiri2 {
-        grid-template-columns: auto auto;
-
-
-    }
-
-
-}
-
-
-@media screen and (max-width:400px) {
-    .boshi {
-        grid-template-columns: auto;
-
-    }
-
-    .oxiri2 {
-        grid-template-columns: auto;
-
-
-    }
-
-
-
-
-}
-
-
-
-@media screen and (max-width:300px) {
-    .lol3 {
-        grid-template-columns: auto;
-
-    }
-
-    .aboutus {
-        grid-template-columns: auto;
-
-    }
-
-    .aboutus img {
-        max-width: 80%;
-        margin: auto;
-    }
-
-    .lol4 {
-        margin-top: 20px;
-
-    }
-
-    .lol4 h1 {
-        font-size: 25px;
-    }
-
-    .lol4 button {
-        size: 15px;
-    }
-
-    .boxs2 {
-        grid-template-columns: auto;
-
-    }
-
-    .oxiri2 {
-        grid-template-columns: auto;
-
-
-    }
-
-
+@media screen and (max-width:1000px){
+    
 }
