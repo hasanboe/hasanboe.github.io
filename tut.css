@@ -1,0 +1,25 @@
+.menu{
+max-width: 100%;
+height: 100%;
+
+}
+.yozuv8{
+max-width: 50%;
+height: 100%;
+display: grid;
+grid-template-columns: auto;
+font-size: 20px;
+}
+.yozuv8 input{
+font-size: 18px;
+margin-top: 10px;
+
+}
+.yozuv8 button{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border: 0px solid red;
+    color: white;
+    border-radius: 10px;
+}
