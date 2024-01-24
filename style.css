@@ -208,7 +208,7 @@
 .oxirrogi {
     max-width: 100%;
 
-    height: 300px;
+    height: 300%;
 }
 
 .box9 {
@@ -251,7 +251,7 @@
 
 .boshi1 {
     max-width: 100%;
-    height: 500px;
+    height: 500%;
 
 
 }
@@ -630,6 +630,10 @@ margin-left: 20px;
 
 
 @media screen and (max-width:1150px) {
+    .box9{
+padding-top: 500px;
+
+    }
     .poc1{
 grid-template-columns: auto auto;
 
@@ -637,7 +641,18 @@ grid-template-columns: auto auto;
 
 
 }
+@media screen and (max-width:900px) {
+    .box9{
+margin-top: 20%;
+
+    }
+    
+}
 @media screen and (max-width:800px) {
+    .box9{
+margin-top: 100%;
+
+    }
     .poc1{
 grid-template-columns: auto;
 
@@ -686,6 +701,11 @@ grid-template-columns: auto;
     .sos {
         grid-template-columns: auto;
     }
+    .sos1 {
+        max-width: 100%;
+        height: 50%;
+    margin-left: 20px;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -703,6 +723,11 @@ grid-template-columns: auto;
         grid-template-columns: auto auto;
     }
 
+.box9{
+    grid-template-columns: auto;
+    margin-top: 200%;
+}
+
     .lol {
         grid-template-columns: auto auto;
 
@@ -710,10 +735,22 @@ grid-template-columns: auto;
 .lol ol button{
     padding-top: -10px;
 }
-
+.sos1 {
+    max-width: 100%;
+    height: 30%;
+margin-left: 20px;
 }
-
-
+}
+@media screen and (max-width:450px) {
+    .box9{
+        padding-top: 150%;
+    }
+}
+@media screen and (max-width:420px) {
+    .box9{
+         margin-top: 1200px;
+    }
+}
 
 
 @media screen and (max-width:400px) {
@@ -738,6 +775,9 @@ grid-template-columns: auto;
     .box9 {
         margin-top: 50%;
         grid-template-columns: auto;
+    }
+    .box9{
+        margin-top: 200px;
     }
     .hok {
         grid-template-columns: auto;
