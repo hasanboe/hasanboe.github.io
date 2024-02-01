@@ -22,7 +22,13 @@
     z-index: 90000;
 }
 
-
+.cantaynr_h1 {
+    background: var(--Gradient-Heading,
+            linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%));
+    color: white;
+    border-radius: 5px;
+    padding: 0 5px;
+}
 
 
 
@@ -32,33 +38,45 @@
     display: grid;
     color: aqua;
     margin: auto;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     align-items: center;
 
 }
 
-.lol ol {
+
+.l {
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     font-size: 6 0px;
 
 }
+.l ol button{
+    max-width: 100%;
+    border-radius: 20px;
+}
 
 .lol ol button {
-    width: 80px;
-    height: 30px;
-    border: 0px solid red;
+
+    color: #7E7F86;
+    font-family: "Red Hat Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     background-color: aqua;
-    color: black;
-    font-size: 20px;
-    border-radius: 10px;
+    border: 0px solid red;
 }
 
 .lol ol :hover {
-    width: 100;
-    color: black;
-    background-color: white;
-    border: 1px solid black;
-    transform: scale(1.1);
+
+    color: #25202F;
+
+    transform: scale(1.2);
     transition: 0.5s;
+
+
 }
 
 .lol ol :active {
@@ -76,7 +94,7 @@
     max-width: 100%;
     height: 100%;
     border-radius: 10px;
-    
+
 }
 
 .lop ol :hover {
@@ -109,23 +127,34 @@
 
 .ok h1 {
     font-size: 50px;
+    font-style: oblique;
 }
 
 .ok p {
 
-    font-size: 20px;
+    font-size: 30px;
+    font-style: oblique;
 }
 
-.ok ol:hover {
 
-    transform: scale(1.1);
-    transition: 1s;
-
-
-}
 
 .ok ol button {
     border: 0px solid red;
+    color: #FFF;
+    margin-left: -50px;
+    text-align: center;
+    font-family: "Red Hat Display";
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    background: var(--Gradient-Heading,
+            linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%));
+
+
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
 }
 
 
@@ -136,22 +165,18 @@
     max-width: 300px;
     height: 300px;
     margin: auto;
-
+    margin: 10%;
+    background-color: white;
+    border-radius: 200px;
 }
 
 .kok :hover {
 
 
+    transform: scale(1.1);
+    transition: 0.5s;
     margin: auto;
 }
-
-
-
-.kok :hover {
-    transform: scale(1.15);
-    transition: 1s;
-}
-
 
 .boq :hover {
     transform: scale(1);
@@ -164,20 +189,18 @@
     z-index: 800;
 }
 
-
-
-
-
-
-
-
 .kok img {
     max-width: 100%;
-
+    border-radius: 200px;
 }
 
 .ok {
     margin: auto;
+
+}
+
+.ok p {
+    font-size: 30px;
 
 }
 
@@ -212,7 +235,7 @@
 }
 
 .box9 {
-    padding-top: 300px;
+    padding-top: 700px;
     max-width: 100%;
     height: 100%;
     margin: auto;
@@ -286,93 +309,16 @@
 
 }
 
-.oxiri {
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-    margin-top: 10%;
 
-}
 
-.men1 {
-    margin-left: 50px;
 
-}
 
-.men2 {
-    display: flex;
-    margin: auto;
-}
-
-.boq {
-    margin: auto;
-
-}
-
-.kot {
-    width: 80%;
-    height: auto;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    margin: auto;
-
-}
-
-.oxirrogi1 {
-
-    max-width: 100%;
-    height: 100%;
-    border: 2px solid red;
-
-}
-
-.pol1 {
-    max-width: 100%;
-    height: 100%;
-    border: 2px solid red;
-
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.p1 {
-    max-width: 60%;
-    height: 100%;
-
-    margin: auto;
-}
-
-.p1 h1 {
-    color: #21232D;
-    font-size: 36px;
-    font-family: Roboto;
-    font-weight: 500;
-    line-height: 52px;
-    word-wrap: break-word
-}
-
-.p2 {
-    max-width: 100%;
-    height: 100%;
-    margin: auto;
-    margin-right: 200px;
-}
-
-.p2 ol {
-
-    color: #8643DC;
-    font-size: 24px;
-    font-family: Roboto;
-    font-weight: 400;
-    text-decoration: underline;
-    text-transform: lowercase;
-    word-wrap: break-word
-}
 
 .ishlar {
     padding-top: 40px;
     max-width: 100%;
     height: 100%;
+    margin-top: 200px;
 
 }
 
@@ -478,26 +424,62 @@
     background-color: #191919;
     border-radius: 20px;
     animation: mol 2s linear 2s infinite alternate;
-
 }
 
 .l {
     max-width: 40%;
     height: 100%;
     margin: auto;
+}
+
+.about_me {
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+    color: rgb(165, 132, 93);
+    margin-bottom: 130px;
+}
+
+.heandbreake {
+    max-width: 80%;
+    height: 30%;
+    border-radius: 30px;
+    margin: auto;
+    margin: 20px;
+}
+
+.heandbreake img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.about_me h1 {
+    color: black;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.about_me a {
+    list-style: none;
+    color: red;
+}
+
+.about_me p {
+    font-size: 30px;
+    margin-bottom: 150px;
+    color: rgb(24, 22, 22);
 
 }
 
-.l h1 {
+.l_h1 {
+    max-width: 500%;
+    margin: auto;
     color: white;
-    justify-content: center;
-    align-items: center;
-}
-
-.l p {
-    color: white;
-    align-items: center;
-    justify-content: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 
 .hok {
@@ -513,7 +495,6 @@
 .kol2 {
     max-width: 100%;
     height: 100%;
-
     padding: 30px;
     border-radius: 50px;
 }
@@ -527,8 +508,25 @@
 .kol2 :hover {
     transform: scale(1.2);
     transition: 0.5s;
+}
 
+.illl {
+    max-width: 100%;
+    height: 100%;
 
+}
+
+.il {
+    max-width: 60%;
+    justify-content: center;
+    color: #25202F;
+    margin: auto;
+    font-style: italic;
+    font-family: "Red Hat Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
 }
 
@@ -539,7 +537,8 @@
     margin-top: 20%;
     grid-template-columns: auto auto;
     padding-top: 10%;
-background-color: #191919;
+    background-color: #191919;
+
 }
 
 .sos {
@@ -547,15 +546,18 @@ background-color: #191919;
     height: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-left: 120px;
 }
-.sos h1{
-color: white;
+
+.sos h1 {
+    color: white;
 
 }
+
 .sos1 {
     max-width: 100%;
     height: 100%;
-margin-left: 20px;
+    margin-left: 20px;
 }
 
 .sos1 img {
@@ -566,7 +568,6 @@ margin-left: 20px;
     border-radius: 30px;
 }
 
-
 .sos1 :hover {
 
     transform: scale(1.2);
@@ -574,107 +575,77 @@ margin-left: 20px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@keyframes anim {
-    50% {
-        transform: translate(0px, 10px);
-    }
-
-    100% {
-
-
-        transform: translate(0px, 0px);
-    }
-
-
-}
-
-
-
-@keyframes mol {
-    0% {
-        transform: translate(20px, 0px);
-
-    }
-
-    50% {
-        transform: translate(0px, 0px);
-    }
-
-    100% {
-
-
-        transform: translate(20px, 0px);
-    }
-
-
-}
-
-
-
-
 @media screen and (max-width:1150px) {
-    .box9{
-padding-top: 500px;
+    .header{
+        height: 100px;
+    }
+    .about_me {
+        margin-top: 1000px;
 
     }
-    .poc1{
+    .kok{
+        margin-top: 100px;
+    }
+    .poc1 {
+        grid-template-columns: auto auto;
+
+    }
+}
+@media screen and (max-width:1000px) {
+    .l{
 grid-template-columns: auto auto;
-
+margin-top: -10px;
+padding-top: -50px;
     }
 
-
 }
+
 @media screen and (max-width:900px) {
-    .box9{
-margin-top: 20%;
+    .box9 {
+        margin-top: 20%;
 
     }
-    
+
 }
+
+
 @media screen and (max-width:800px) {
-    .box9{
-margin-top: 100%;
+    .about_me {
+        margin-top: 1200px;
 
     }
-    .poc1{
-grid-template-columns: auto;
+
+    .box9 {
+        margin-top: 100%;
+
+    }
+
+    .poc1 {
+        grid-template-columns: auto;
 
     }
 
 }
-
-
-
-
 
 @media screen and (max-width:700px) {
     .header {
         grid-template-columns: auto auto;
+
     }
+   
 
     .ortasi {
         grid-template-columns: auto;
+        margin-top: 100px;
     }
 
     .kot {
         grid-template-columns: auto auto auto auto;
+        margin-top: 300px;
+    }
+
+    .ishlar {
+        margin-top: 300px;
     }
 
     .poc1 {
@@ -701,18 +672,51 @@ grid-template-columns: auto;
     .sos {
         grid-template-columns: auto;
     }
+
     .sos1 {
         max-width: 100%;
         height: 50%;
-    margin-left: 20px;
+        margin-left: 20px;
     }
 }
+@media screen and (max-width:650px) {
 
-@media screen and (max-width:500px) {
     .header {
-        height: 100px;
+        height: 140px;
 
     }
+
+.l{
+grid-template-columns: auto;
+
+}
+.l ol{
+    max-width: 100%;
+    
+   
+    margin-top: -5px;
+}
+.l ol button{
+font-size: 20px;
+
+padding-top: -100px;
+}
+.ortasi{
+    margin-top: 250px;
+}
+
+
+
+}
+@media screen and (max-width:500px) {
+    .header {
+        height: 150px;
+
+    }
+    .l{
+     margin-top: 8px;
+     margin-left: -10px;
+        }
 
     .men2 {
         margin-top: 100%;
@@ -723,35 +727,52 @@ grid-template-columns: auto;
         grid-template-columns: auto auto;
     }
 
-.box9{
-    grid-template-columns: auto;
-    margin-top: 200%;
-}
+    .box9 {
+        grid-template-columns: auto;
+        margin-top: 200%;
+    }
 
     .lol {
         grid-template-columns: auto auto;
 
     }
-.lol ol button{
-    padding-top: -10px;
-}
-.sos1 {
-    max-width: 100%;
-    height: 30%;
-margin-left: 20px;
-}
-}
-@media screen and (max-width:450px) {
-    .box9{
-        padding-top: 150%;
+
+    .lol ol button {
+        padding-top: -10px;
     }
-}
-@media screen and (max-width:420px) {
-    .box9{
-         margin-top: 1200px;
+
+    .sos1 {
+        max-width: 100%;
+        height: 30%;
+        margin-left: 20px;
     }
 }
 
+@media screen and (max-width:450px) {
+    .kok {
+        max-width: 200px;
+        height: 200px;
+        margin: auto;
+        margin-top: 50px;
+        background-color: white;
+        border-radius: 200px;
+    }
+
+    .about_me {
+        margin-top: 2400px;
+
+    }
+
+    .box9 {
+        padding-top: 150%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .box9 {
+        margin-top: 1200px;
+    }
+}
 
 @media screen and (max-width:400px) {
     .header {
@@ -772,13 +793,16 @@ margin-left: 20px;
     .kot {
         grid-template-columns: auto auto;
     }
+
     .box9 {
         margin-top: 50%;
         grid-template-columns: auto;
     }
-    .box9{
+
+    .box9 {
         margin-top: 200px;
     }
+
     .hok {
         grid-template-columns: auto;
     }
@@ -788,7 +812,18 @@ margin-left: 20px;
     }
 
     .sos1 img {
-        max-width: 70%;
-        height: 80%;
+        max-width: 80%;
+        height: 90%;
     }
+}
+@media screen and (max-width:350px) {
+   .cantaynr_h1{
+font-size: 29px;
+
+   }
+    .l{
+     margin-top: 8px;
+     margin-left: -35px;
+        }
+
 }
